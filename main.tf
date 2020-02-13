@@ -114,7 +114,7 @@ resource "azurerm_virtual_machine" "catapp" {
     disable_password_authentication = false
   }
   
-  tag {
+  tag = {
     Billable = true
     Department = "DevOps"
   }
